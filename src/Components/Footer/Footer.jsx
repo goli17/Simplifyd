@@ -61,12 +61,12 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <div className="content">
-            <p>Privecy Policy</p>
+            <p>Privacy Policy</p>
             <p>Terms of Service</p>
             <p>Careers</p>
           </div>
           <div className="icons">
-            <span>
+            {/* <span>
               <CiFacebook />
             </span>
             <span>
@@ -74,7 +74,7 @@ const Footer = () => {
             </span>
             <span>
               <FaTwitter />
-            </span>
+            </span> */}
             <span>
               <CiLinkedin />
             </span>
