@@ -129,11 +129,14 @@
     max-width: 100%;
   }
   .hero2-left-heading {
-    padding: 20px 0px;
+    padding: 0px 45px;
   }
   .hero2-left-heading h1 {
     font-size: 20px;
     padding: 10px 10px;
+  }
+  .hero2-left-content {
+    padding: 0px 45px;
   }
   .hero2-left-content p {
     font-size: 12px;
@@ -155,6 +158,6 @@
     border-radius: 50px;
     font-size: 17.21px;
     width: 180px;
-    margin: 10px 40px;
+    margin: 10px 50px;
   }
 }
