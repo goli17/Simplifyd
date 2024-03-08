@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Poster_im2 from "../../Assets/posterrr.jpg";
+import Poster_im2 from "../../Assets/posterrr.JPG";
 import "./Hero2.css";
 
 const Hero2 = () => {
