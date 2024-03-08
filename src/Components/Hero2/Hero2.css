@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
   margin-bottom: 70px;
 }
 .hero2-left {
@@ -51,11 +50,111 @@
   padding: 0px 200px;
 }
 @media (max-width: 1280px) {
+  .hero2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 70px;
+  }
+  .hero2-left {
+    display: flex;
+    flex-direction: column;
+  }
   .hero2-left-heading h1 {
     font-size: 30px;
   }
   .hero2-left-content p {
     font-size: 14px;
     color: #666666;
+  }
+  .hero2-righti-img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 1080px) {
+  .hero2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero2-left-heading h1 {
+    font-size: 25px;
+  }
+  .hero2-left-content p {
+    font-size: 12px;
+    color: #666666;
+  }
+  .hero2-righti-img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .hero2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero2-left-heading h1 {
+    font-size: 20px;
+  }
+  .hero2-left-content p {
+    font-size: 12px;
+    color: #666666;
+  }
+  .hero2-righti-img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .hero2-left button {
+    background-color: #0054cb;
+    color: #ffff;
+    border: none;
+    height: 2.5rem;
+    border-radius: 50px;
+    font-size: 17.21px;
+    width: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .hero2-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    max-width: 100%;
+  }
+  .hero2-left-heading {
+    padding: 20px 0px;
+  }
+  .hero2-left-heading h1 {
+    font-size: 20px;
+    padding: 10px 10px;
+  }
+  .hero2-left-content p {
+    font-size: 12px;
+    color: #666666;
+    padding: 10px 10px;
+  }
+  .hero2-right {
+    max-width: 80%;
+  }
+  .hero2-right-img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .hero2-left button {
+    background-color: #0054cb;
+    color: #ffff;
+    border: none;
+    height: 2.5rem;
+    border-radius: 50px;
+    font-size: 17.21px;
+    width: 180px;
+    margin: 10px 40px;
   }
 }
