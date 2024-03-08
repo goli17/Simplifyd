@@ -1,7 +1,6 @@
 import React from "react";
 import "./Customer.css";
 import Image from "next/image";
-import background_img from "../../Assets/background.png";
 const Customer = () => {
   return (
     <>
