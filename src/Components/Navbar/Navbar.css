@@ -98,3 +98,70 @@
     border-radius: 25px;
   }
 }
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #0054cb;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-items.show {
+  display: block;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 100%;
+  background-color: #ffff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+@media (max-width: 700px) {
+  .nav-logo {
+    padding-left: 0px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .items {
+    gap: 5px;
+  }
+
+  .items li {
+    list-style: none;
+    padding: 0px 5px;
+    color: #525560;
+    font-size: 14px;
+  }
+
+  .items button {
+    font-size: 14px;
+    width: 140px;
+  }
+
+  .bar.animate:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .bar.animate:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.animate:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
