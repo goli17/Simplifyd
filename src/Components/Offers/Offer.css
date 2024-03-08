@@ -186,3 +186,16 @@
   }
 
 }
+@media (min-width: 700px) and (max-width: 900px) {
+  .Offers-one-number h1 {
+    font-size: 46px;
+  }
+
+  .Offers-one-content h3 {
+    font-size: 22px;
+  }
+
+  .button {
+    width: 250px;
+  }
+}
