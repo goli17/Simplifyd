@@ -77,7 +77,7 @@
     font-size: 60px;
   }
   .hello-left h3 {
-    font-size: 38px;
+    font-size: 36px;
     text-align: right;
   }
 
@@ -133,7 +133,7 @@
     font-size: 55px;
   }
   .hello-left h3 {
-    font-size: 20px;
+    font-size: 17px;
 
     text-align: right;
   }
@@ -148,7 +148,7 @@
     color: #101010;
   }
   .hello-right-content p {
-    font-size: 12px;
+    font-size: 08px;
   }
   .hello-right-content hr {
     width: 100%;
@@ -157,7 +157,7 @@
     background-color: #101010;
   }
   .hello-right-content h4 {
-    font-size: 12px;
+    font-size: 10px;
     color: #101010;
   }
 }
