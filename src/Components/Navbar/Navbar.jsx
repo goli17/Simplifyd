@@ -1,5 +1,12 @@
+"use client"
 import "./Navbar.css";
+import { useState } from "react";
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <>
       <div className="navbar">
@@ -63,6 +70,11 @@ const Navbar = () => {
             <li>Media</li>
             <button>Contact us</button>
           </ul>
+        </div>
+        <div className="hamburger-menu" onClick={toggleMenu}>
+          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
+          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
+          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
         </div>
       </div>
     </>
