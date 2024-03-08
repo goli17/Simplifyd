@@ -22,7 +22,6 @@
   max-width: 50%;
 }
 .hero-right p {
-  width: 500px;
   color: #666666;
   font-size: 18px;
   font-weight: 500;
@@ -76,10 +75,10 @@
     font-weight: 700;
   }
   .hero-right p {
-    width: 300px;
     color: #666666;
     font-size: 14px;
     font-weight: 500;
+    padding: 10px 10px;
   }
 }
 
@@ -91,20 +90,21 @@
   .hero-left {
     margin: auto;
     padding: 20px 0px;
+    max-width: 100%;
   }
   .hero-left h1 {
     color: #101010;
-    font-size: 38px;
+    font-size: 20px;
     font-weight: 700;
   }
   .hero-right {
-    margin: auto;
-    padding: 20px 0px;
+    max-width: 100%;
   }
   .hero-right p {
     color: #666666;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+    max-width: 100%;
   }
   .book-a-call {
     padding: 20px 0px;
