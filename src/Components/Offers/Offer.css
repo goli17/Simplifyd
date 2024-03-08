@@ -5,22 +5,26 @@
   margin: auto;
   margin-bottom: 70px;
 }
+
 .Offers-one {
   display: flex;
   gap: 20px;
   max-width: 100%;
   height: 270px;
 }
+
 .Offers-one-number {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 20%;
 }
+
 .Offers-one-number h1 {
   font-size: 56.61px;
   color: #c8c8c8;
 }
+
 .Offers:hover .Offers-one-number h1 {
   color: #0054cb;
 }
@@ -37,6 +41,7 @@
   border-radius: 25px;
   width: 80vw;
 }
+
 .Offers-one-content {
   width: 80%;
   padding: 20px 30px;
@@ -44,22 +49,27 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .Offers-one-content h4 {
   color: #8d8d8d;
 }
+
 .Offers-one-content h3 {
   color: #101010;
   font-size: 28px;
 }
+
 .Offers-one-content h3 span {
   color: #0054cb;
   cursor: pointer;
 }
+
 .Offer-one-img {
   width: 100px;
   display: flex;
   align-items: flex-end;
 }
+
 .button {
   background-color: #0054cb;
   color: #ffff;
@@ -70,7 +80,109 @@
   font-size: 21.21px;
   font-weight: 700;
 }
+
 .button-cont {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .Offers-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    height: 270px;
+  }
+
+  .Offers-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Offers-one-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Offers-one-number h1 {
+    font-size: 36px;
+    color: #c8c8c8;
+  }
+
+  .Offers:hover .Offers-one-number h1 {
+    color: #0054cb;
+  }
+
+  .Offers:hover .Offer-content-img {
+    background: #f9f9f9;
+  }
+
+  .Offer-content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c8c8c8;
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .Offers-one-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Offers-one-content h4 {
+    color: #8d8d8d;
+  }
+
+  .Offers-one-content h3 {
+    color: #101010;
+    font-size: 16px;
+  }
+
+  .Offers-one-content p {
+    /* color: #101010; */
+    font-size: 12px;
+  }
+
+  .Offers-one-content h3 span {
+    color: #0054cb;
+    cursor: pointer;
+  }
+
+  .Offer-one-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    background-color: #0054cb;
+    color: #ffff;
+    border: none;
+    width: 90%;
+    max-width: 301px;
+    height: 3.5rem;
+    border-radius: 50px;
+    font-size: 21.21px;
+    font-weight: 700;
+  }
+
+  .button-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
 }

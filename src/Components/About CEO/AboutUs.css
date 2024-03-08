@@ -1,12 +1,14 @@
 .About {
   padding-top: 40px;
 }
+
 .heading {
   display: flex;
   margin: auto;
   height: fit-content;
   margin-bottom: 70px;
 }
+
 .heading-content {
   text-align: center;
 }
@@ -15,11 +17,14 @@
   font-size: 48px;
   font-weight: 700;
 }
+
 .About-img-content {
   display: flex;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
+
 .About-img {
   height: 500px;
   box-shadow: 5px 5px 10px 0 rgba(217, 216, 216, 0.5);
@@ -27,27 +32,32 @@
   display: flex;
   flex-direction: column;
 }
+
 .img {
   height: 350px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   overflow: hidden;
 }
+
 .AboutUs-content {
   padding: 15px 15px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
 .AboutUs-content p {
   padding: 0px 15px;
   font-size: 28px;
 }
+
 .AboutUs-content span {
   padding: 0px 15px;
   font-size: 18px;
   color: #3d3d3d;
 }
+
 .AboutUs-Rohan {
   display: flex;
   flex-direction: column;
@@ -55,6 +65,7 @@
   width: 280px;
   height: 400px;
 }
+
 .discription {
   padding: 0px 15px;
 
@@ -62,6 +73,7 @@
   font-size: 15px;
   margin: auto;
 }
+
 .AboutUs-content .discription {
   height: 0;
   display: none;
