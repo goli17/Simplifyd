@@ -1,0 +1,15 @@
+.heading {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  height: fit-content;
+  margin-bottom: 70px;
+}
+.heading-content {
+  text-align: center;
+}
+
+.heading-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.Customer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(215, 100%, 40%);
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  gap: 20px;
+}
+.Customer-heading p {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px 30px;
+  margin: auto;
+}
+
+.Customer-button {
+  display: flex;
+  justify-content: center;
+}
+.Customer-button button {
+  background-color: #fff;
+  color: #0054cb;
+  border: none;
+  width: 250px;
+  height: 3.5rem;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+}

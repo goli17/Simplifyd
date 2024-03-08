@@ -1,0 +1,79 @@
+.About {
+  width: 100%;
+  padding-top: 40px;
+}
+.heading {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  height: fit-content;
+  margin-bottom: 70px;
+}
+.heading-content {
+  text-align: center;
+}
+
+.heading-content p {
+  font-size: 48px;
+  font-weight: 700;
+}
+.About-img-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.About-img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 5px 10px 0 rgba(217, 216, 216, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  width: 400px;
+  height: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+}
+.AboutUs-content {
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.AboutUs-content p {
+  padding: 0px 15px;
+  font-size: 28px;
+}
+.AboutUs-content span {
+  padding: 0px 15px;
+  font-size: 18px;
+  color: #3d3d3d;
+}
+.AboutUs-Rohan {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 280px;
+  height: 400px;
+}
+.discription {
+  padding: 0px 15px;
+  line-height: 20px;
+  color: #6e6e73;
+  font-size: 15px;
+  margin: auto;
+}
+.AboutUs-content .discription {
+  height: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.AboutUs-content:hover .discription {
+  height: 350px;
+  display: block;
+  opacity: 1;
+}

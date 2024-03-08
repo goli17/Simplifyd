@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content li {
+  list-style: none;
+}
+.icons li {
+  list-style: none;
+}

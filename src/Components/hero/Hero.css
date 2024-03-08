@@ -1,0 +1,138 @@
+.hero {
+  display: flex;
+  align-items: center;
+  margin: 22px;
+  height: fit-content;
+  margin-bottom: 70px;
+}
+.hero-left {
+  display: flex;
+  width: 600px;
+  margin: auto;
+}
+.hero-left h1 {
+  color: #101010;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+}
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+}
+.hero-right p {
+  width: 500px;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.book-a-call {
+}
+@media (max-width: 1280px) {
+  .hero {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  .hero-left {
+    width: 400px;
+    margin: auto;
+  }
+  .hero-left h1 {
+    color: #101010;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50.45px;
+  }
+  .hero-right {
+    width: 400px;
+  }
+  .hero-right p {
+    width: 400px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+@media (max-width: 1080px) {
+  .hero {
+    width: 100%;
+  }
+  .hero-left {
+    width: 400px;
+    margin: auto;
+  }
+  .hero-left h1 {
+    color: #101010;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50.45px;
+  }
+  .hero-right {
+    max-width: 400px;
+  }
+  .hero-right p {
+    width: 300px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .hero-left {
+    width: 300px;
+    margin: auto;
+  }
+  .hero-left h1 {
+    color: #101010;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40.45px;
+  }
+  .hero-right {
+    max-width: 300px;
+  }
+  .hero-right p {
+    width: 300px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-left {
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .hero-left h1 {
+    color: #101010;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40.45px;
+  }
+  .hero-right {
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .hero-right p {
+    width: 300px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .book-a-call {
+    padding: 20px 0px;
+  }
+}
