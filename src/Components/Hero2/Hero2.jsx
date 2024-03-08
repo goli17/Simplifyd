@@ -27,7 +27,14 @@ const Hero2 = () => {
             <button>Book a Call</button>
           </div>
           <div className="hero2-right">
-            <Image src={Poster_im2} alt="Hero2image" width={680} height={530} />
+            <div className="hero2-righti-img">
+              <Image
+                src={Poster_im2}
+                alt="Hero2image"
+                width={500}
+                height={430}
+              />
+            </div>
           </div>
         </div>
       </div>
