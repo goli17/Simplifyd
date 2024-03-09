@@ -5,9 +5,10 @@
   border: 1px solid #dfdfdf;
   border-radius: 50px;
   height: fit-content;
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 70px;
+  margin: auto !important;
+  margin-top: 25px !important;
+  margin-bottom: 70px !important;
+  max-width: 1400px;
 }
 
 .nav-logo {

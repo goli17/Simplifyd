@@ -8,7 +8,7 @@ const Hello = () => {
           <div className="hello-left-left">
             <p>slick.</p>
           </div>
-          <div className="hero-left-right">
+          <div className="hello-left-right">
             <div className="hello-left">
               <h3>
                 Our philosophy is simple: start small, validate swiftly, and

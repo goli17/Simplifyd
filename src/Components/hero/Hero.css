@@ -3,7 +3,9 @@
   align-items: center;
   margin: 22px;
   height: fit-content;
-  margin-bottom: 70px;
+  margin-bottom: 70px !important;
+  max-width: 1400px;
+  margin: auto !important;
 }
 .hero-left {
   display: flex;
