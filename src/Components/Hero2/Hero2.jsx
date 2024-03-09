@@ -35,6 +35,7 @@ const Hero2 = () => {
                 alt="Hero2image"
                 width={400}
                 height={400}
+                layout="responsive"
               />
               {/* <HeroIcon /> */}
             </div>

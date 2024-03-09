@@ -35,7 +35,7 @@
 }
 
 .img {
-  height: 350px;
+  height: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   overflow: hidden;
@@ -89,4 +89,15 @@
   transition-delay: 2s;
   cursor: pointer;
   max-width: 300px;
+}
+@media (max-width: 420px) {
+  .About-img {
+    max-width: 290px;
+    height: auto;
+  }
+}
+@media (max-width: 350px) {
+  .About-img {
+    max-width: 250px;
+  }
 }

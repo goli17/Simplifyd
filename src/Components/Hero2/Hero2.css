@@ -178,14 +178,8 @@
   }
 }
 @media (max-width: 420px) {
-  .hero2-right {
-    max-width: 100%; /* Adjust the width of the container to fit the screen */
-    margin-top: 20px; /* Add some top margin for better spacing */
-  }
-
   .hero2-righti-img {
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Allow the image height to adjust accordingly */
-    overflow: hidden; /* Hide any overflow */
+    width: 300px;
+    height: auto;
   }
 }
