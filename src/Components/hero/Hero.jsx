@@ -3,7 +3,7 @@ import "./Hero.css";
 import { GoArrowRight } from "react-icons/go";
 const Hero = () => {
   return (
-    <>
+    <div className="hero-container">
       <div className="hero">
         <div className="hero-left">
           <h1> Let's create great products together.</h1>
@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
