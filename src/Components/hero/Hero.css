@@ -4,6 +4,8 @@
   margin: 22px;
   height: fit-content;
   margin-bottom: 70px !important;
+}
+.hero-container {
   max-width: 1400px;
   margin: auto !important;
 }
