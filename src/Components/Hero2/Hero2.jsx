@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import Poster_im2 from "../../Assets/posterrr.JPG";
+import Poster_im2 from "../../Assets/bg123.svg";
 import "./Hero2.css";
+// import { HeroIcon } from '@/Assets/svg'
 
 const Hero2 = () => {
   return (
@@ -31,9 +33,10 @@ const Hero2 = () => {
               <Image
                 src={Poster_im2}
                 alt="Hero2image"
-                width={500}
-                height={430}
+                width={400}
+                height={400}
               />
+              {/* <HeroIcon /> */}
             </div>
           </div>
         </div>
