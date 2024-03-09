@@ -26,8 +26,7 @@
   font-size: 18px;
   font-weight: 500;
 }
-.book-a-call {
-}
+
 @media (max-width: 1280px) {
   .hero {
     margin: auto;
@@ -103,5 +102,17 @@
   }
   .book-a-call {
     padding: 20px 0px;
+  }
+  .hero-left-right {
+    margin: 0;
+  }
+}
+@media (max-width: 300px) {
+  .hero-left h1 {
+    font-size: 14px;
+  }
+
+  .hero-right p {
+    font-size: 12px;
   }
 }
