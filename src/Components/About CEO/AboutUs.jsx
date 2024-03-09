@@ -22,7 +22,12 @@ const AboutUs = () => {
                   borderTopRightRadius: "15px",
                 }}
               >
-                <Image src={item.image.src} width={400} height={350} />
+                <Image
+                  src={item.image.src}
+                  width={400}
+                  height={350}
+                  layout="responsive"
+                />
               </div>
               <div className="AboutUs-content">
                 <p>{item?.title}</p>
