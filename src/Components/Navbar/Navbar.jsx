@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import "./Navbar.css";
 import { useState } from "react";
 const Navbar = () => {
@@ -62,19 +62,19 @@ const Navbar = () => {
             </svg>
           </h4>
         </div>
-        <div className="nav-items">
+        <div className={`nav-items ${showMenu ? "show" : ""}`}>
           <ul className="items">
             <li>Home</li>
             <li>About us</li>
             <li>What We Do</li>
             <li>Media</li>
-            <button>Contact us</button>
+            {showMenu ? <li>Contact us</li> : <button>Contact us</button>}
           </ul>
         </div>
         <div className="hamburger-menu" onClick={toggleMenu}>
-          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
-          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
-          <div className={`bar ${showMenu ? 'animate' : ''}`}></div>
+          <div className={`bar ${showMenu ? "animate" : ""}`}></div>
+          <div className={`bar ${showMenu ? "animate" : ""}`}></div>
+          <div className={`bar ${showMenu ? "animate" : ""}`}></div>
         </div>
       </div>
     </>
