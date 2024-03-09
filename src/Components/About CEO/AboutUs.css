@@ -27,11 +27,14 @@
 }
 
 .About-img {
-  height: 500px;
+  height: inherit;
+  max-height: 500px;
+  max-width: 400px;
   box-shadow: 5px 5px 10px 0 rgba(217, 216, 216, 0.5);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #c8c8c8;
 }
 
 .img {
@@ -50,12 +53,15 @@
 
 .AboutUs-content p {
   padding: 0px 15px;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
 }
 
 .AboutUs-content span {
   padding: 0px 15px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
   color: #3d3d3d;
 }
 
@@ -69,10 +75,9 @@
 
 .discription {
   padding: 0px 15px;
-
   color: #6e6e73;
   font-size: 15px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .AboutUs-content .discription {
@@ -81,8 +86,34 @@
   overflow: hidden;
 }
 
+.About-img:hover .AboutUs-content .discription {
+  height: fit-content;
+  max-height: 200px;
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+  opacity: 1;
+  transition: height 0.5s ease; /* Adjust transition timing */
+  cursor: pointer;
+  /* padding: 0; */
+}
+
+/* Apply styles to the hovered card */
+.About-img:hover .AboutUs-content {
+  padding-bottom: 20px; /* Add some space at the bottom when hovered */
+}
+
+/* Hide description by default */
+.AboutUs-content .discription {
+  height: 0;
+  overflow: hidden;
+}
+
 .AboutUs-content:hover .discription {
-  height: 350px;
+  height: fit-content;
+  /* max-height: 200px; */
+  font-size: 12px;
+  font-weight: 500;
   display: block;
   opacity: 1;
   transition: 5s;
