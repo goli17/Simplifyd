@@ -84,6 +84,7 @@
   }
   .hero-left {
     max-width: 100%;
+    margin: 10px 10px;
   }
   .hero-left h1 {
     color: #101010;
@@ -92,10 +93,11 @@
   }
   .hero-right {
     max-width: 100%;
+    margin: 10px 10px;
   }
   .hero-right p {
     color: #666666;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     max-width: 100%;
   }
