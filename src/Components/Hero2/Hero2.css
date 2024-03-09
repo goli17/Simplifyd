@@ -127,19 +127,20 @@
     flex-direction: column;
     gap: 0px;
     max-width: 100%;
+    margin: 10px 15px;
   }
   .hero2-left-heading {
     padding: 0px 45px;
   }
   .hero2-left-heading h1 {
-    font-size: 20px;
+    font-size: 19px;
     padding: 10px 10px;
   }
   .hero2-left-content {
     padding: 0px 45px;
   }
   .hero2-left-content p {
-    font-size: 12px;
+    font-size: 11px;
     color: #666666;
     padding: 10px 10px;
   }
