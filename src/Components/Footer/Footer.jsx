@@ -60,25 +60,25 @@ const Footer = () => {
           </svg>
         </div>
         <div className="footer-right">
-          <ul className="content">
-            <li>Privecy Policy</li>
-            <li>Terms of Service</li>
-            <li>Careers</li>
-          </ul>
-          <ul className="icons">
-            <li>
+          <div className="content">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Careers</p>
+          </div>
+          <div className="icons">
+            {/* <span>
               <CiFacebook />
-            </li>
-            <li>
+            </span>
+            <span>
               <BsInstagram />
-            </li>
-            <li>
+            </span>
+            <span>
               <FaTwitter />
-            </li>
-            <li>
+            </span> */}
+            <span>
               <CiLinkedin />
-            </li>
-          </ul>
+            </span>
+          </div>
         </div>
       </footer>
     </>
