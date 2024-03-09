@@ -50,7 +50,6 @@
 }
 @media (max-width: 1080px) {
   .hero-left {
-    width: 400px;
     margin: auto;
   }
   .hero-left h1 {
@@ -66,9 +65,6 @@
   }
 }
 @media (max-width: 800px) {
-  .hero-left {
-    margin: auto;
-  }
   .hero-left h1 {
     color: #101010;
     font-size: 38px;
@@ -78,7 +74,6 @@
     color: #666666;
     font-size: 14px;
     font-weight: 500;
-    padding: 10px 10px;
   }
 }
 
@@ -88,15 +83,12 @@
     flex-direction: column;
   }
   .hero-left {
-    margin: auto;
-    padding: 20px 0px;
     max-width: 100%;
   }
   .hero-left h1 {
     color: #101010;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 10px;
   }
   .hero-right {
     max-width: 100%;
