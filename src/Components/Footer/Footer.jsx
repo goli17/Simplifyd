@@ -19,8 +19,8 @@ const Footer = () => {
             <p>Terms of Service</p>
             <p>Careers</p>
           </div>
-          <div className="icons">
-            {/* <span>
+          {/* <div className="icons">
+            <span>
               <CiFacebook />
             </span>
             <span>
@@ -28,11 +28,11 @@ const Footer = () => {
             </span>
             <span>
               <FaTwitter />
-            </span> */}
+            </span>
             <span>
               <CiLinkedin />
             </span>
-          </div>
+          </div> */}
         </div>
       </footer>
     </>

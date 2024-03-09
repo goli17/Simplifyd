@@ -4,19 +4,23 @@ const Hello = () => {
   return (
     <>
       <div className="hello">
-        <div className="hero-container">
+        <div className="hello-container">
           <div className="hello-left-left">
-            <p>hello.</p>
+            <p>slick.</p>
           </div>
-          <div className="hero-left-right">
+          <div className="hello-left-right">
             <div className="hello-left">
-              <h3>We understand the pivotal challenge of achieving</h3>
+              <h3>
+                Our philosophy is simple: start small, validate swiftly, and
+                scale incrementally.
+              </h3>
             </div>
             <div className="hello-right">
               <div className="hello-right-content">
                 <p>
-                  We help businesses grow, launch products and build enduring
-                  relationships with our communities.
+                  We believe in crafting Minimum Viable Products that serve as
+                  agile launchpads, allowing founders to test hypotheses, gather
+                  insights.
                 </p>
                 <h4>
                   OUR INFO
