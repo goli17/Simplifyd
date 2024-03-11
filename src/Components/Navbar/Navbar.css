@@ -81,6 +81,10 @@
   .navbar {
     height: 3.5rem;
     align-items: center;
+    margin-top: 10px;
+  }
+  .hamburger-menu {
+    margin-right: 20px !important;
   }
   .nav-items {
     display: none;
