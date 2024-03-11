@@ -11,7 +11,7 @@ const Offers = () => {
         <div className="Offers" key={idx}>
           <div className="Offers-one">
             <div className="Offers-one-number">
-              <h1>{item.id}</h1>
+              <span className="counter">{item.id}</span>
             </div>
             <div className="Offer-content-img">
               <div className="Offers-one-content">
@@ -24,8 +24,8 @@ const Offers = () => {
                 <Image
                   src={item.image}
                   alt="Offer image"
-                  width={100}
-                  height={111}
+                  width={70}
+                  // height={111}
                 />
               </div>
             </div>

@@ -24,7 +24,7 @@ export const table = [
   },
   {
     id: "03",
-    title: " DEVELOPE",
+    title: " DEVELOP",
     breif:
       "We Develop your Web, Mobile, & IoT apps in record time. We help you develop your Offer.",
     description:

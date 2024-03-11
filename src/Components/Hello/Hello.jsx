@@ -3,7 +3,7 @@ import "./Hello.css";
 const Hello = () => {
   return (
     <>
-      <div className="hello">
+      <div className="container">
         <div className="hello-container">
           <div className="hello-left-left">
             <p>slick.</p>

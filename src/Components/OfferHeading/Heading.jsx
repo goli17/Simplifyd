@@ -5,7 +5,7 @@ const Heading = () => {
     <>
       <div className="heading">
         <div className="heading-content">
-          <h1>Something good lines about process</h1>
+          <h2>Something good lines about process</h2>
         </div>
       </div>
     </>
