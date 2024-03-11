@@ -20,8 +20,8 @@ const Hero2 = () => {
                 BitLab was born from our obsession with helping startups succeed
                 and our frustration with the traditional software development
                 agency model.
-              </p>
-              <p>
+                <br/>
+                <br/>
                 Dev Agencies expect "specifications" to deliver a "project". We
                 turn your Vision into Product by understanding your Business.
               </p>

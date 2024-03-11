@@ -1,5 +1,5 @@
 .heading {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   margin: auto;
   height: fit-content;
@@ -9,7 +9,16 @@
   text-align: center;
 }
 
-.heading-content h1 {
-  font-size: 48px;
+.heading-content h2 {
+  font-size: 45px;
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .heading-content h2 {
+    font-size: 35px;
+  }
+  .heading {
+    margin-top: 0px;
+  }
 }

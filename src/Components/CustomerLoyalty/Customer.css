@@ -35,3 +35,10 @@
   font-size: 19px;
   font-weight: 700;
 }
+
+
+@media (max-width: 500px) {
+  .Customer {
+    padding:100px 0px;
+  }
+}

@@ -38,26 +38,33 @@
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  .footer-left {
+    margin-top:10px;
+  }
+}
+
 @media (max-width: 500px) {
-  .footer{
-    justify-content:flex-start;
+  .footer {
+    gap:0px;
+    margin-bottom: 15px;
+  }
+
+  .footer-left {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-right, .footer-right .content {
+    width: 100%;
   }
   .footer-right {
-    /* flex-direction: column; */
-    margin-top: 0;
-    gap: 20px;
+    display: block;
+    margin:0px;
   }
-  .footer-left {
-    display: flex;
-    justify-content: center;
-  }
-  .content {
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 5px;
-    align-items: normal;
-  }
-  .icons{
-    align-items: normal;
+
+  .footer .icons {
+    margin-top: 10px;
   }
 }

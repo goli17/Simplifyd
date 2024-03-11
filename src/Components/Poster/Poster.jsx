@@ -5,14 +5,13 @@ import "./Poster.css";
 const Poster = () => {
   return (
     <div>
-      <div className="image-wrapper">
-        <Image
-          src={posterImg}
-          alt="poster image"
-          width={"auto"}
-          height={500}
-          layout="responsive"
-        />
+      <div className="image-wrapper" style={
+        {
+          backgroundImage: `url(${posterImg.src})`,
+          backgroundPosition: 'centre',
+          backgroundAttachment: 'fixed'
+        }
+      }>
       </div>
     </div>
   );
