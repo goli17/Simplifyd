@@ -107,6 +107,9 @@
 }
 
 @media (max-width: 500px) {
+  .Offers-one {
+    height:auto;
+  }
   .Offers-one-content h4 {
     font-size: 15px;
   }
